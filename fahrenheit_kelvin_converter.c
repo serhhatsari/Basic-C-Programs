@@ -32,7 +32,7 @@ int main(){
 		scanf("%lf",&temp);
 		
 		result_temp =  ((5.0 / 9.0) * (temp - 32)) + 273.15; /* fahrenheit to kelvin formula */
-   	    printf("Result = %.5f Kelvin ",result_temp);
+   	    printf("Result = %.4f Kelvin ",result_temp);
 	}
 	
 	else if(temp_type == 2){ /* kelvin to fahrenheit */
@@ -41,7 +41,7 @@ int main(){
 		scanf("%lf",&temp);
 		
 		result_temp =  (9.0 / 5.0) * ( temp - 273.15)  + 32; /* kelvin to fahrenheit formula */
-		printf("Result = %f Fahrenheit ",result_temp);
+		printf("Result = %.4f Fahrenheit ",result_temp);
 	}
 
 }
